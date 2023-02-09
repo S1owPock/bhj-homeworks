@@ -8,7 +8,6 @@ cookie.onclick = function() {
         dataStart = new Date();
     } else { 
         dataEnd = new Date();
-        clickerSpeed.textContent = (1 / ((dataEnd - dataStart) / 1000)).toFixed(2);
         dataStart = dataEnd;
     }
     clickerCounter.textContent = Number(clickerCounter.textContent) + 1;
